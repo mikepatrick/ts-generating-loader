@@ -1,0 +1,20 @@
+{
+  "name": "so-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "awesome-typescript-loader": "^3.2.3",
+    "ts-loader": "^3.1.1",
+    "typescript": "^2.6.1",
+    "webpack": "^3.8.1",
+    "webpack-typescript": "^0.5.6"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.52",
+    "file-loader": "^1.1.5"
+  }
+}

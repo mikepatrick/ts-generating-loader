@@ -1,0 +1,1 @@
+Simple example demonstrating generating Typescript with a custom loader.

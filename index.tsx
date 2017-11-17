@@ -6,6 +6,8 @@ document.getElementById("root").innerHTML = message;
 
 var dummy = new DummyClass();
 dummy.printMessage();
-dummy.setContent({name: "Mike"});
+
+dummy.setContent('x'); // compiler should bark
+dummy.setContent({name: "Mike"}); // compiler should be cool
 
 var y: number = 12;

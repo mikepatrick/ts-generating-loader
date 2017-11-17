@@ -19,15 +19,3 @@ module.exports = function(source, map) {
   // fs.writeFile("./example.api.ts", source);
   this.callback(null, source, map);
   };
-
-// module.exports = function(source, map) {
-//     this.cacheable && this.cacheable();
-//     console.warn("in loader ", source)
-//     source = `
-//     interface DummyContent {
-//         name: string;
-//         age?: number;
-//     }
-//     `;
-//     this.callback(null, source, map);
-//  };
